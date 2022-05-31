@@ -38,8 +38,19 @@ Um outro exemplo é caso seja escolhido a dificuldade médio. O usuário terá 1
 ![an](https://user-images.githubusercontent.com/106001465/171091153-dcf86a33-574f-48d4-b3d2-d3f2177ae2a8.PNG)
 
 
+# Perguntas e Respostas
 
+Este mini game é um programa que eu já continha em um outro repositório, apenas importei para este novo projeto.
 
+Nesse jogo o usuário escolhera dentre as categorias que estarão disponível e respondera perguntas com alternativas relacionadas a categoria que ele escolheu.
+
+Na imagem abaixo é criado um menu de categorias, onde o usuário irá escolher o tema no qual ele gostaria de responder as perguntas. Eu utilizo uma Tuple para armazenar as opções do meu menu e o for loop irá realizar a exibição no formato a qual eu quero para o usuário.
+
+![pr](https://user-images.githubusercontent.com/106001465/171092498-74f7db4f-660c-4772-ab10-375eaea5d044.PNG)
+
+O usuário selecionando o tema matemática por exemplo, será exibido as questões relacionadas a esse tema. Caso ele responda a alternativa correta será direcionado a próxima pergunta, caso responda errado é exibido uma mensagem na tela dizendo que a resposta está errada e o programa será finalizado.
+
+![pr](https://user-images.githubusercontent.com/106001465/171093100-64cb388f-ab80-4cb2-ac7c-d4532ad5c6c6.PNG)
 
 
 
