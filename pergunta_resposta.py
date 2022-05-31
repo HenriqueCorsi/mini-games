@@ -1,6 +1,6 @@
 def jogar_perguntaResposta():
     print("\n*********************************")
-    print("Bem vindo ao jogo Perguntas e Respostas!")
+    print("Bem vindo ao jogo Perguntas e Respostas!!")
     print("*********************************")
     try:
         nome = str(input('\nDigite o nome do participante: '))

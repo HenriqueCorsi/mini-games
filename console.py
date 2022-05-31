@@ -1,7 +1,7 @@
 import adivinhe_numero
 import pergunta_resposta
 
-print('\n**** SELECIONE O JOGO QUE GOSTARIA DE JOGAR ****')
+print('\n***** SELECIONE O JOGO QUE GOSTARIA DE JOGAR *****')
 print('[1] -> Qual é o número\n[2] -> Perguntas e Respostas')
 try:
     select_user = int(input())

@@ -29,6 +29,7 @@ def jogar_advinheNumero():
 
                     if num == numero_secreto:
                         print('\nParábens. Você acertou o número secreto!')
+                        input()
                         break
 
                     else:
@@ -45,6 +46,7 @@ def jogar_advinheNumero():
                         loop = loop - 1
 
                 print(f'O número secreto era: {numero_secreto}')
+                input()
 
             elif dificuldade == 2:
                 numero_secreto = randint(1, 50)
@@ -61,6 +63,7 @@ def jogar_advinheNumero():
 
                     if num == numero_secreto:
                         print('\nParábens. Você acertou o número secreto!')
+                        input()
                         break
 
                     else:
@@ -77,6 +80,7 @@ def jogar_advinheNumero():
                         loop = loop - 1
 
                 print(f'O número secreto era: {numero_secreto}')
+                input()
 
             elif dificuldade == 3:
                 numero_secreto = randint(1, 100)
@@ -93,6 +97,7 @@ def jogar_advinheNumero():
 
                     if num == numero_secreto:
                         print('\nParábens. Você acertou o número secreto!')
+                        input()
                         break
 
                     else:
@@ -109,9 +114,12 @@ def jogar_advinheNumero():
                         loop = loop - 1
 
                 print(f'O número secreto era: {numero_secreto}')
+                input()
 
             else:
                 print('Opção Inválida')
+                input()
 
         except ValueError:
             print('Opção Inválida')
+            input()
