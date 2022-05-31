@@ -1,4 +1,7 @@
+import os
+
 def jogar_perguntaResposta():
+    os.system("cls")
     print("\n*********************************")
     print("Bem vindo ao jogo Perguntas e Respostas!!")
     print("*********************************")
@@ -21,6 +24,7 @@ def jogar_perguntaResposta():
 
             escolha_materias = int(input())
             if escolha_materias == 1:
+                os.system("cls")
                 print(f'\nMuito bem {nome}, vamos ao game!')
                 print('\nQuanto é a metade de 6, mais 6 ?')
                 pergunta1 = (
@@ -35,6 +39,7 @@ def jogar_perguntaResposta():
                 select_questao1 = int((input()))
 
                 if select_questao1 == 3:
+                    os.system("cls")
                     print('\nCerta resposta!')
                     print('\nPara calcular a potência de potência de mesma base, conserva a base e...')
                     pergunta2 = (
@@ -49,8 +54,8 @@ def jogar_perguntaResposta():
                     select_questao2 = int(input())
 
                     if select_questao2 == 1:
+                        os.system("cls")
                         print('\nCerta Resposta!')
-                        print('Opção Inválida')
                         print('\nBilionésimo é um número ordinal equivalente a: ')
                         pergunta3 = (
                             '[1] -> Milhar',
@@ -64,6 +69,7 @@ def jogar_perguntaResposta():
                         select_questao3 = int(input())
 
                         if select_questao3 == 2:
+                            os.system("cls")
                             print('\nCerta Resposta!')
                             print('\nSomando a minha idade com a de meu irmão, obtenho 22 anos. Com quanto dara a soma'
                                   ' de nossas idades daqui a 3 anos?')
@@ -79,6 +85,7 @@ def jogar_perguntaResposta():
                             select_questao4 = int(input())
 
                             if select_questao4 == 3:
+                                os.system("cls")
                                 print('\nCerta Resposta!')
                                 print('\nSegundo a regra, o módulo é sempre um número real: ')
                                 pergunta5 = (
@@ -93,6 +100,7 @@ def jogar_perguntaResposta():
                                 select_questao5 = int(input())
 
                                 if select_questao5 == 1:
+                                    os.system("cls")
                                     print('\nCerta Resposta!')
                                     print('\nQual é o número seguinte na sequência 421, 332, 243...?')
                                     pergunta6 = (
@@ -107,6 +115,7 @@ def jogar_perguntaResposta():
                                     select_questao6 = int(input())
 
                                     if select_questao6 == 3:
+                                        os.system("cls")
                                         print('\nCerta Resposta!')
                                         print('\nQual destes números não é racional: ')
                                         pergunta7 = (
@@ -121,6 +130,7 @@ def jogar_perguntaResposta():
                                         select_questao7 = int(input())
 
                                         if select_questao7 == 4:
+                                            os.system("cls")
                                             print('\nCerta Resposta!')
                                             print('\nQual número é maior que 7?')
                                             pergunta8 = (
@@ -135,6 +145,7 @@ def jogar_perguntaResposta():
                                             select_questao8 = int(input())
 
                                             if select_questao8 == 1:
+                                                os.system("cls")
                                                 print('\nCerta Resposta!')
                                                 print('\nQuantas unidades encontramos em duas dúzias?')
                                                 pergunta9 = (
@@ -149,6 +160,7 @@ def jogar_perguntaResposta():
                                                 select_questao9 = int(input())
 
                                                 if select_questao9 == 4:
+                                                    os.system("cls")
                                                     print('\nCerta Resposta!')
                                                     print('\nO resultado da expressão 2 + 5 * 9 é:')
                                                     pergunta10 = (
@@ -163,6 +175,7 @@ def jogar_perguntaResposta():
                                                     select_questao10 = int(input())
 
                                                     if select_questao10 == 1:
+                                                        os.system("cls")
                                                         print('\nCerta Resposta!')
                                                         print(f'\nPARABENS {nome.upper()} VOCÊ ACERTOU TODAS AS '
                                                               f'PERGUNTAS')
@@ -202,6 +215,7 @@ def jogar_perguntaResposta():
                     input()
 
             elif escolha_materias == 2:
+                os.system("cls")
                 print(f'\nMuito bem {nome}, vamos ao game!')
                 print('\nNo corpo Humano, onde se localiza o pâncreas?')
                 pergunta1 = (
@@ -216,6 +230,7 @@ def jogar_perguntaResposta():
                 select_questao1 = int(input())
 
                 if select_questao1 == 1:
+                    os.system("cls")
                     print('\nCerta Resposta')
                     print('\nQue doença é frequentemente transmitida por água poluída?')
                     pergunta2 = (
@@ -230,6 +245,7 @@ def jogar_perguntaResposta():
                     select_questao2 = int(input())
 
                     if select_questao2 == 2:
+                        os.system("cls")
                         print('\nCerta Resposta.')
                         print('\nA adição de saliva ao bolo alimentar constitui aquilo que chamamos de:')
                         pergunta3 = (
@@ -244,6 +260,7 @@ def jogar_perguntaResposta():
                         select_questao3 = int(input())
 
                         if select_questao3 == 2:
+                            os.system("cls")
                             print('\nCerta Resposta')
                             print('\nJugular é algo pertencente...')
                             pergunta3 = (
@@ -258,6 +275,7 @@ def jogar_perguntaResposta():
                             select_questao3 = int(input())
 
                             if select_questao3 == 1:
+                                os.system("cls")
                                 print('\nCerta Resposta')
                                 print('\nAo emborcar um ponte de vidro sobre uma vela acesa, ela se apaga por '
                                       'falta de: ')
@@ -273,6 +291,7 @@ def jogar_perguntaResposta():
                                 select_questao4 = int(input())
 
                                 if select_questao4 == 2:
+                                    os.system("cls")
                                     print('\nCerta Resposta')
                                     print('\nComo se chama o estado da água na forma de gelo?')
                                     pergunta5 = (
@@ -287,6 +306,7 @@ def jogar_perguntaResposta():
                                     select_questao5 = int(input())
 
                                     if select_questao5 == 1:
+                                        os.system("cls")
                                         print('\nCerta Resposta')
                                         print('\nO Bacu-de-Pedra é uma espécie de qué?')
                                         pergunta6 = (
@@ -301,6 +321,7 @@ def jogar_perguntaResposta():
                                         select_questao6 = int(input())
 
                                         if select_questao6 == 3:
+                                            os.system("cls")
                                             print('\nCerta Resposta')
                                             print('\nO que é Macuco?')
                                             pergunta7 = (
@@ -315,6 +336,7 @@ def jogar_perguntaResposta():
                                             select_questao7 = int(input())
 
                                             if select_questao7 == 4:
+                                                os.system("cls")
                                                 print('\nCerta Resposta')
                                                 print('\nQual desses animais é muito resistente a falta de água'
                                                       ', calor e a fadiga?')
@@ -330,6 +352,7 @@ def jogar_perguntaResposta():
                                                 select_questao8 = int(input())
 
                                                 if select_questao8 == 1:
+                                                    os.system("cls")
                                                     print('\nCerta Resposta')
                                                     print('\nQual das seguintes é uma fonte de energética renovável? ')
                                                     pergunta9 = (
@@ -344,6 +367,7 @@ def jogar_perguntaResposta():
                                                     select_questao9 = int(input())
 
                                                     if select_questao9 == 1:
+                                                        os.system("cls")
                                                         print('\nCerta Resposta')
                                                         print('\nQual é o maior planeta do Sistema Solar?')
                                                         pergunta10 = (
@@ -358,6 +382,7 @@ def jogar_perguntaResposta():
                                                         select_questao10 = int(input())
 
                                                         if select_questao10 == 2:
+                                                            os.system("cls")
                                                             print('\nCerta Resposta')
                                                             print(f'\nPARABENS {nome.upper()} VOCÊ ACERTOU TODAS AS '
                                                                   f'PERGUNTAS')
@@ -397,6 +422,7 @@ def jogar_perguntaResposta():
                     input()
 
             elif escolha_materias == 3:
+                os.system("cls")
                 print(f'\nMuito bem {nome}, vamos ao game!')
                 print('\nEm inglês, que tempo verbal se usa para indicar uma ação que esta acontecendo'
                       'agora?')
@@ -412,6 +438,7 @@ def jogar_perguntaResposta():
                 select_questao1 = int(input())
 
                 if select_questao1 == 2:
+                    os.system("cls")
                     print('\nCerta Resposta.')
                     print('\nChoose the correct answer. Only at night __________ the safety of their cave. ')
                     pergunta2 = (
@@ -426,6 +453,7 @@ def jogar_perguntaResposta():
                     select_questao2 = int(input())
 
                     if select_questao2 == 1:
+                        os.system("cls")
                         print('\nCerta Resposta.')
                         print('\nQual dessas alternativas não corresponde a um tipo de animal ?')
                         pergunta2 = (
@@ -440,6 +468,7 @@ def jogar_perguntaResposta():
                         select_questao2 = int(input())
 
                         if select_questao2 == 2:
+                            os.system("cls")
                             print('\nCerta Resposta.')
                             print('\nQual animal não é um inseto?')
                             pergunta3 = (
@@ -454,6 +483,7 @@ def jogar_perguntaResposta():
                             select_questao3 = int(input())
 
                             if select_questao3 == 4:
+                                os.system("cls")
                                 print('\nCerta Resposta.')
                                 print('\nNeighbor é o mesmo que: ')
                                 pergunta4 = (
@@ -468,6 +498,7 @@ def jogar_perguntaResposta():
                                 select_questao4 = int(input())
 
                                 if select_questao4 == 2:
+                                    os.system("cls")
                                     print('\nCerta Resposta.')
                                     print('\nApós o casamento, o que a noiva sera do noivo? ')
                                     pergunta5 = (
@@ -482,6 +513,7 @@ def jogar_perguntaResposta():
                                     select_questao5 = int(input())
 
                                     if select_questao5 == 3:
+                                        os.system("cls")
                                         print('\nCerta Resposta.')
                                         print('\nQual dos profissionais a seguir trabalha no circo ?')
                                         pergunta6 = (
@@ -496,6 +528,7 @@ def jogar_perguntaResposta():
                                         select_questao6 = int(input())
 
                                         if select_questao6 == 2:
+                                            os.system("cls")
                                             print('\nCerta Resposta.')
                                             print('\nQual cor não aparece no arco-íris? ')
                                             pergunta7 = (
@@ -510,6 +543,7 @@ def jogar_perguntaResposta():
                                             select_questao7 = int(input())
 
                                             if select_questao7 == 3:
+                                                os.system("cls")
                                                 print('\nCerta Resposta.')
                                                 print('\nSafe is an adjective, what is its related noun?')
                                                 pergunta8 = (
@@ -524,6 +558,7 @@ def jogar_perguntaResposta():
                                                 select_questao7 = int(input())
 
                                                 if select_questao7 == 1:
+                                                    os.system("cls")
                                                     print('\nCerta Resposta.')
                                                     print('\nQual é o significado da palavra inglêsa KING?')
                                                     pergunta9 = (
@@ -538,6 +573,7 @@ def jogar_perguntaResposta():
                                                     select_questao9 = int(input())
 
                                                     if select_questao9 == 2:
+                                                        os.system("cls")
                                                         print('\nCerta Resposta.')
                                                         print('\nBoxing day in the uk in on__________________.')
                                                         pergunta10 = (
@@ -552,6 +588,7 @@ def jogar_perguntaResposta():
                                                         select_questao10 = int(input())
 
                                                         if select_questao10 == 3:
+                                                            os.system("cls")
                                                             print('\nCerta Resposta.')
                                                             print(f'\nPARABENS {nome.upper()} VOCÊ ACERTOU TODAS AS '
                                                                   f'PERGUNTAS')
@@ -591,6 +628,7 @@ def jogar_perguntaResposta():
                     input()
 
             elif escolha_materias == 4:
+                os.system("cls")
                 print(f'\nMuito bem {nome}, vamos ao game!')
                 print('\nO que significa lambuzar?')
                 pergunta1 = (
@@ -605,6 +643,7 @@ def jogar_perguntaResposta():
                 select_questao1 = int(input())
 
                 if select_questao1 == 1:
+                    os.system("cls")
                     print('\nCerta Resposta.')
                     print('\nO verbo "TELEFONEAR" em espanhol pode ser substituído por:')
                     pergunta2 = (
@@ -619,6 +658,7 @@ def jogar_perguntaResposta():
                     select_questao2 = int(input())
 
                     if select_questao2 == 3:
+                        os.system("cls")
                         print('\nCerta Resposta.')
                         print('\nComo se diz "cigarro" em espanhol?')
                         pergunta3 = (
@@ -633,6 +673,7 @@ def jogar_perguntaResposta():
                         select_questao3 = int(input())
 
                         if select_questao3 == 4:
+                            os.system("cls")
                             print('\nCerta Resposta.')
                             print('\n Ha numa cozinha, em espanhol, exceto: ')
                             pergunta4 = (
@@ -647,6 +688,7 @@ def jogar_perguntaResposta():
                             select_questao4 = int(input())
 
                             if select_questao4 == 2:
+                                os.system("cls")
                                 print('\nCerta Resposta.')
                                 print('\nSon platos españoles, expeto: ')
                                 pergunta5 = (
@@ -661,6 +703,7 @@ def jogar_perguntaResposta():
                                 select_questao5 = int(input())
 
                                 if select_questao5 == 3:
+                                    os.system("cls")
                                     print('\nCerta Resposta.')
                                     print('\nEm espanhol, o verbo "QUEDAR" significa:')
                                     pergunta6 = (
@@ -675,6 +718,7 @@ def jogar_perguntaResposta():
                                     select_questao6 = int(input())
 
                                     if select_questao6 == 1:
+                                        os.system("cls")
                                         print('\nCerta Resposta.')
                                         print('\nA expressão "ESTAR EMBARAZADA" em espanhol significa: ')
                                         pergunta7 = (
@@ -689,6 +733,7 @@ def jogar_perguntaResposta():
                                         select_questao7 = int(input())
 
                                         if select_questao7 == 4:
+                                            os.system("cls")
                                             print('\nCerta Resposta.')
                                             print('\nSão meios de transporte, em espanholm exceto:')
                                             pergunta8 = (
@@ -703,6 +748,7 @@ def jogar_perguntaResposta():
                                             select_questao8 = int(input)
 
                                             if select_questao8 == 3:
+                                                os.system("cls")
                                                 print('\nCerta Resposta.')
                                                 print('\n A que parte do corpo se refere a palavra "TOBILLO" em '
                                                       'espanhol: ')
@@ -718,6 +764,7 @@ def jogar_perguntaResposta():
                                                 select_questao9 = int(input())
 
                                                 if select_questao9 == 4:
+                                                    os.system("cls")
                                                     print('\nCerta Resposta.')
                                                     print(
                                                         '\nA expressão "LA COMIDA ESTÁ EXQUISITA" em espanhol '
@@ -734,6 +781,7 @@ def jogar_perguntaResposta():
                                                     select_questao10 = int(input())
 
                                                     if select_questao10 == 2:
+                                                        os.system("cls")
                                                         print('\nCerta Resposta.')
                                                         print(f'\nPARABENS {nome.upper()} VOCÊ ACERTOU TODAS AS '
                                                               f'PERGUNTAS')
@@ -768,6 +816,7 @@ def jogar_perguntaResposta():
                     input()
 
             elif escolha_materias == 5:
+                os.system("cls")
                 print(f'\nMuito bem {nome}, vamos ao game!')
                 print('\nFesta popular brasileira muito divulgada no exterior: ')
                 pergunta1 = (
@@ -782,6 +831,7 @@ def jogar_perguntaResposta():
                 select_questao1 = int(input())
 
                 if select_questao1 == 2:
+                    os.system("cls")
                     print('\nCerta Resposta.')
                     print('\nQual o ano da comemoração dos 500 anos do descobrimento do Brasil?')
                     pergunta2 = (
@@ -796,6 +846,7 @@ def jogar_perguntaResposta():
                     select_questao2 = int(input())
 
                     if select_questao2 == 3:
+                        os.system("cls")
                         print('\nCerta Resposta.')
                         print('\nHa quantos anos o Brasil foi descoberto? ')
                         pergunta3 = (
@@ -810,6 +861,7 @@ def jogar_perguntaResposta():
                         select_questao3 = int(input())
 
                         if select_questao3 == 2:
+                            os.system("cls")
                             print('\nCerta Resposta.')
                             print('\nAquele que ocupa a terra sem ter o título de propriedade chama-se de:')
                             pergunta4 = (
@@ -824,6 +876,7 @@ def jogar_perguntaResposta():
                             select_questao4 = int(input())
 
                             if select_questao4 == 1:
+                                os.system("cls")
                                 print('\nCerta Resposta.')
                                 print('\nQual é o contrario de altruísmo?')
                                 pergunta5 = (
@@ -838,6 +891,7 @@ def jogar_perguntaResposta():
                                 select_questao5 = int(input())
 
                                 if select_questao5 == 2:
+                                    os.system("cls")
                                     print('\nCerta Resposta.')
                                     print('\nQual é o antônimo de ida?')
                                     pergunta6 = (
@@ -852,6 +906,7 @@ def jogar_perguntaResposta():
                                     select_questao6 = int(input())
 
                                     if select_questao6 == 3:
+                                        os.system("cls")
                                         print('\nCerta Resposta.')
                                         print('\nQual é o objeto ultilizado pelos deficientes visuais para tatear '
                                               'o caminho?')
@@ -867,6 +922,7 @@ def jogar_perguntaResposta():
                                         select_questao7 = int(input())
 
                                         if select_questao7 == 3:
+                                            os.system("cls")
                                             print('\nCerta Resposta.')
                                             print('\nDolência significa: ')
                                             pergunta8 = (
@@ -881,6 +937,7 @@ def jogar_perguntaResposta():
                                             select_questao8 = int(input())
 
                                             if select_questao8 == 2:
+                                                os.system("cls")
                                                 print('\nCerta Resposta.')
                                                 print('\nComo é conhecido o colégio que aceita alunos de ambos os '
                                                       'sexo:')
@@ -896,6 +953,7 @@ def jogar_perguntaResposta():
                                                 select_questao9 = int(input())
 
                                                 if select_questao9 == 2:
+                                                    os.system("cls")
                                                     print('\nCerta Resposta.')
                                                     print('\nTermo que define "tudo o que aconte na natureza": ')
                                                     pergunta10 = (
@@ -910,6 +968,7 @@ def jogar_perguntaResposta():
                                                     select_questao10 = int(input())
 
                                                     if select_questao10 == 4:
+                                                        os.system("cls")
                                                         print('\nCerta Resposta.')
                                                         print(f'\nPARABENS {nome.upper()} VOCÊ ACERTOU TODAS AS '
                                                               f'PERGUNTAS')
