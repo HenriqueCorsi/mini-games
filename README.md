@@ -33,7 +33,7 @@ Já neste segundo print é um exemplo caso seja escolhida a dificuldade fácil. 
 ![an](https://user-images.githubusercontent.com/106001465/171090899-c2c1130b-4ac6-421d-af27-54b91f7adad3.PNG)
 
 
-Um outro exemplo é caso seja escolhido a dificuldade média. O usuário terá 10 chances de descobrir qual número o programa selecionou de 1 até 50.
+Um outro exemplo é caso seja escolhido a dificuldade médio. O usuário terá 10 chances de descobrir qual número o programa selecionou de 1 até 50.
 
 ![an](https://user-images.githubusercontent.com/106001465/171091153-dcf86a33-574f-48d4-b3d2-d3f2177ae2a8.PNG)
 
