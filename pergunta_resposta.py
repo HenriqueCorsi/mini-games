@@ -1,6 +1,9 @@
 def jogar_perguntaResposta():
+    print("\n*********************************")
+    print("Bem vindo ao jogo Perguntas e Respostas!")
+    print("*********************************")
     try:
-        nome = str(input('Digite o nome do participante: '))
+        nome = str(input('\nDigite o nome do participante: '))
     except ValueError:
         print('Nome Invalido')
     else:
