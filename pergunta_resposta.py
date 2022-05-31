@@ -1,5 +1,6 @@
 import os
 
+
 def jogar_perguntaResposta():
     os.system("cls")
     print("\n*********************************")
@@ -36,7 +37,7 @@ def jogar_perguntaResposta():
                 for loop in pergunta1:
                     print(loop)
 
-                select_questao1 = int((input()))
+                select_questao1 = int((input('\n')))
 
                 if select_questao1 == 3:
                     os.system("cls")
@@ -51,7 +52,7 @@ def jogar_perguntaResposta():
                     for loop in pergunta2:
                         print(loop)
 
-                    select_questao2 = int(input())
+                    select_questao2 = int(input('\n'))
 
                     if select_questao2 == 1:
                         os.system("cls")
@@ -66,7 +67,7 @@ def jogar_perguntaResposta():
                         for loop in pergunta3:
                             print(loop)
 
-                        select_questao3 = int(input())
+                        select_questao3 = int(input('\n'))
 
                         if select_questao3 == 2:
                             os.system("cls")
@@ -82,7 +83,7 @@ def jogar_perguntaResposta():
                             for loop in pergunta4:
                                 print(loop)
 
-                            select_questao4 = int(input())
+                            select_questao4 = int(input('\n'))
 
                             if select_questao4 == 3:
                                 os.system("cls")
@@ -97,7 +98,7 @@ def jogar_perguntaResposta():
                                 for loop in pergunta5:
                                     print(loop)
 
-                                select_questao5 = int(input())
+                                select_questao5 = int(input('\n'))
 
                                 if select_questao5 == 1:
                                     os.system("cls")
@@ -112,7 +113,7 @@ def jogar_perguntaResposta():
                                     for loop in pergunta6:
                                         print(loop)
 
-                                    select_questao6 = int(input())
+                                    select_questao6 = int(input('\n'))
 
                                     if select_questao6 == 3:
                                         os.system("cls")
@@ -127,7 +128,7 @@ def jogar_perguntaResposta():
                                         for loop in pergunta7:
                                             print(loop)
 
-                                        select_questao7 = int(input())
+                                        select_questao7 = int(input('\n'))
 
                                         if select_questao7 == 4:
                                             os.system("cls")
@@ -142,7 +143,7 @@ def jogar_perguntaResposta():
                                             for loop in pergunta8:
                                                 print(loop)
 
-                                            select_questao8 = int(input())
+                                            select_questao8 = int(input('\n'))
 
                                             if select_questao8 == 1:
                                                 os.system("cls")
@@ -157,7 +158,7 @@ def jogar_perguntaResposta():
                                                 for loop in pergunta9:
                                                     print(loop)
 
-                                                select_questao9 = int(input())
+                                                select_questao9 = int(input('\n'))
 
                                                 if select_questao9 == 4:
                                                     os.system("cls")
@@ -172,7 +173,7 @@ def jogar_perguntaResposta():
                                                     for loop in pergunta10:
                                                         print(loop)
 
-                                                    select_questao10 = int(input())
+                                                    select_questao10 = int(input('\n'))
 
                                                     if select_questao10 == 1:
                                                         os.system("cls")
@@ -227,7 +228,7 @@ def jogar_perguntaResposta():
                 for loop in pergunta1:
                     print(loop)
 
-                select_questao1 = int(input())
+                select_questao1 = int(input('\n'))
 
                 if select_questao1 == 1:
                     os.system("cls")
@@ -242,7 +243,7 @@ def jogar_perguntaResposta():
                     for loop in pergunta2:
                         print(loop)
 
-                    select_questao2 = int(input())
+                    select_questao2 = int(input('\n'))
 
                     if select_questao2 == 2:
                         os.system("cls")
@@ -257,7 +258,7 @@ def jogar_perguntaResposta():
                         for loop in pergunta3:
                             print(loop)
 
-                        select_questao3 = int(input())
+                        select_questao3 = int(input('\n'))
 
                         if select_questao3 == 2:
                             os.system("cls")
@@ -272,7 +273,7 @@ def jogar_perguntaResposta():
                             for loop in pergunta3:
                                 print(loop)
 
-                            select_questao3 = int(input())
+                            select_questao3 = int(input('\n'))
 
                             if select_questao3 == 1:
                                 os.system("cls")
@@ -288,7 +289,7 @@ def jogar_perguntaResposta():
                                 for loop in pergunta4:
                                     print(loop)
 
-                                select_questao4 = int(input())
+                                select_questao4 = int(input('\n'))
 
                                 if select_questao4 == 2:
                                     os.system("cls")
@@ -303,7 +304,7 @@ def jogar_perguntaResposta():
                                     for loop in pergunta5:
                                         print(loop)
 
-                                    select_questao5 = int(input())
+                                    select_questao5 = int(input('\n'))
 
                                     if select_questao5 == 1:
                                         os.system("cls")
@@ -318,7 +319,7 @@ def jogar_perguntaResposta():
                                         for loop in pergunta6:
                                             print(loop)
 
-                                        select_questao6 = int(input())
+                                        select_questao6 = int(input('\n'))
 
                                         if select_questao6 == 3:
                                             os.system("cls")
@@ -333,7 +334,7 @@ def jogar_perguntaResposta():
                                             for loop in pergunta7:
                                                 print(loop)
 
-                                            select_questao7 = int(input())
+                                            select_questao7 = int(input('\n'))
 
                                             if select_questao7 == 4:
                                                 os.system("cls")
@@ -349,7 +350,7 @@ def jogar_perguntaResposta():
                                                 for loop in pergunta8:
                                                     print(loop)
 
-                                                select_questao8 = int(input())
+                                                select_questao8 = int(input('\n'))
 
                                                 if select_questao8 == 1:
                                                     os.system("cls")
@@ -364,7 +365,7 @@ def jogar_perguntaResposta():
                                                     for loop in pergunta9:
                                                         print(loop)
 
-                                                    select_questao9 = int(input())
+                                                    select_questao9 = int(input('\n'))
 
                                                     if select_questao9 == 1:
                                                         os.system("cls")
@@ -379,7 +380,7 @@ def jogar_perguntaResposta():
                                                         for loop in pergunta10:
                                                             print(loop)
 
-                                                        select_questao10 = int(input())
+                                                        select_questao10 = int(input('\n'))
 
                                                         if select_questao10 == 2:
                                                             os.system("cls")
@@ -435,7 +436,7 @@ def jogar_perguntaResposta():
                 for loop in pergunta1:
                     print(loop)
 
-                select_questao1 = int(input())
+                select_questao1 = int(input('\n'))
 
                 if select_questao1 == 2:
                     os.system("cls")
@@ -450,7 +451,7 @@ def jogar_perguntaResposta():
                     for loop in pergunta2:
                         print(loop)
 
-                    select_questao2 = int(input())
+                    select_questao2 = int(input('\n'))
 
                     if select_questao2 == 1:
                         os.system("cls")
@@ -465,7 +466,7 @@ def jogar_perguntaResposta():
                         for loop in pergunta2:
                             print(loop)
 
-                        select_questao2 = int(input())
+                        select_questao2 = int(input('\n'))
 
                         if select_questao2 == 2:
                             os.system("cls")
@@ -480,7 +481,7 @@ def jogar_perguntaResposta():
                             for loop in pergunta3:
                                 print(loop)
 
-                            select_questao3 = int(input())
+                            select_questao3 = int(input('\n'))
 
                             if select_questao3 == 4:
                                 os.system("cls")
@@ -495,7 +496,7 @@ def jogar_perguntaResposta():
                                 for loop in pergunta4:
                                     print(loop)
 
-                                select_questao4 = int(input())
+                                select_questao4 = int(input('\n'))
 
                                 if select_questao4 == 2:
                                     os.system("cls")
@@ -510,7 +511,7 @@ def jogar_perguntaResposta():
                                     for loop in pergunta5:
                                         print(loop)
 
-                                    select_questao5 = int(input())
+                                    select_questao5 = int(input('\n'))
 
                                     if select_questao5 == 3:
                                         os.system("cls")
@@ -525,7 +526,7 @@ def jogar_perguntaResposta():
                                         for loop in pergunta6:
                                             print(loop)
 
-                                        select_questao6 = int(input())
+                                        select_questao6 = int(input('\n'))
 
                                         if select_questao6 == 2:
                                             os.system("cls")
@@ -540,7 +541,7 @@ def jogar_perguntaResposta():
                                             for loop in pergunta7:
                                                 print(loop)
 
-                                            select_questao7 = int(input())
+                                            select_questao7 = int(input('\n'))
 
                                             if select_questao7 == 3:
                                                 os.system("cls")
@@ -555,7 +556,7 @@ def jogar_perguntaResposta():
                                                 for loop in pergunta7:
                                                     print(loop)
 
-                                                select_questao7 = int(input())
+                                                select_questao7 = int(input('\n'))
 
                                                 if select_questao7 == 1:
                                                     os.system("cls")
@@ -570,7 +571,7 @@ def jogar_perguntaResposta():
                                                     for loop in pergunta9:
                                                         print(loop)
 
-                                                    select_questao9 = int(input())
+                                                    select_questao9 = int(input('\n'))
 
                                                     if select_questao9 == 2:
                                                         os.system("cls")
@@ -585,7 +586,7 @@ def jogar_perguntaResposta():
                                                         for loop in pergunta10:
                                                             print(loop)
 
-                                                        select_questao10 = int(input())
+                                                        select_questao10 = int(input('\n'))
 
                                                         if select_questao10 == 3:
                                                             os.system("cls")
@@ -640,7 +641,7 @@ def jogar_perguntaResposta():
                 for loop in pergunta1:
                     print(loop)
 
-                select_questao1 = int(input())
+                select_questao1 = int(input('\n'))
 
                 if select_questao1 == 1:
                     os.system("cls")
@@ -655,7 +656,7 @@ def jogar_perguntaResposta():
                     for loop in pergunta2:
                         print(loop)
 
-                    select_questao2 = int(input())
+                    select_questao2 = int(input('\n'))
 
                     if select_questao2 == 3:
                         os.system("cls")
@@ -670,7 +671,7 @@ def jogar_perguntaResposta():
                         for loop in pergunta3:
                             print(loop)
 
-                        select_questao3 = int(input())
+                        select_questao3 = int(input('\n'))
 
                         if select_questao3 == 4:
                             os.system("cls")
@@ -685,7 +686,7 @@ def jogar_perguntaResposta():
                             for loop in pergunta4:
                                 print(loop)
 
-                            select_questao4 = int(input())
+                            select_questao4 = int(input('\n'))
 
                             if select_questao4 == 2:
                                 os.system("cls")
@@ -715,7 +716,7 @@ def jogar_perguntaResposta():
                                     for loop in pergunta6:
                                         print(loop)
 
-                                    select_questao6 = int(input())
+                                    select_questao6 = int(input('\n'))
 
                                     if select_questao6 == 1:
                                         os.system("cls")
@@ -730,7 +731,7 @@ def jogar_perguntaResposta():
                                         for loop in pergunta7:
                                             print(loop)
 
-                                        select_questao7 = int(input())
+                                        select_questao7 = int(input('\n'))
 
                                         if select_questao7 == 4:
                                             os.system("cls")
@@ -745,7 +746,7 @@ def jogar_perguntaResposta():
                                             for loop in pergunta8:
                                                 print(loop)
 
-                                            select_questao8 = int(input)
+                                            select_questao8 = int(input('\n'))
 
                                             if select_questao8 == 3:
                                                 os.system("cls")
@@ -761,7 +762,7 @@ def jogar_perguntaResposta():
                                                 for loop in pergunta9:
                                                     print(loop)
 
-                                                select_questao9 = int(input())
+                                                select_questao9 = int(input('\n'))
 
                                                 if select_questao9 == 4:
                                                     os.system("cls")
@@ -778,7 +779,7 @@ def jogar_perguntaResposta():
                                                     for loop in pergunta10:
                                                         print(loop)
 
-                                                    select_questao10 = int(input())
+                                                    select_questao10 = int(input('\n'))
 
                                                     if select_questao10 == 2:
                                                         os.system("cls")
@@ -828,7 +829,7 @@ def jogar_perguntaResposta():
                 for loop in pergunta1:
                     print(loop)
 
-                select_questao1 = int(input())
+                select_questao1 = int(input('\n'))
 
                 if select_questao1 == 2:
                     os.system("cls")
@@ -843,7 +844,7 @@ def jogar_perguntaResposta():
                     for loop in pergunta2:
                         print(loop)
 
-                    select_questao2 = int(input())
+                    select_questao2 = int(input('\n'))
 
                     if select_questao2 == 3:
                         os.system("cls")
@@ -858,7 +859,7 @@ def jogar_perguntaResposta():
                         for loop in pergunta3:
                             print(loop)
 
-                        select_questao3 = int(input())
+                        select_questao3 = int(input('\n'))
 
                         if select_questao3 == 2:
                             os.system("cls")
@@ -873,7 +874,7 @@ def jogar_perguntaResposta():
                             for loop in pergunta4:
                                 print(loop)
 
-                            select_questao4 = int(input())
+                            select_questao4 = int(input('\n'))
 
                             if select_questao4 == 1:
                                 os.system("cls")
@@ -888,7 +889,7 @@ def jogar_perguntaResposta():
                                 for loop in pergunta5:
                                     print(loop)
 
-                                select_questao5 = int(input())
+                                select_questao5 = int(input('\n'))
 
                                 if select_questao5 == 2:
                                     os.system("cls")
@@ -903,7 +904,7 @@ def jogar_perguntaResposta():
                                     for loop in pergunta6:
                                         print(loop)
 
-                                    select_questao6 = int(input())
+                                    select_questao6 = int(input('\n'))
 
                                     if select_questao6 == 3:
                                         os.system("cls")
@@ -919,7 +920,7 @@ def jogar_perguntaResposta():
                                         for loop in pergunta7:
                                             print(loop)
 
-                                        select_questao7 = int(input())
+                                        select_questao7 = int(input('\n'))
 
                                         if select_questao7 == 3:
                                             os.system("cls")
@@ -934,7 +935,7 @@ def jogar_perguntaResposta():
                                             for loop in pergunta8:
                                                 print(loop)
 
-                                            select_questao8 = int(input())
+                                            select_questao8 = int(input('\n'))
 
                                             if select_questao8 == 2:
                                                 os.system("cls")
@@ -950,7 +951,7 @@ def jogar_perguntaResposta():
                                                 for loop in pergunta9:
                                                     print(loop)
 
-                                                select_questao9 = int(input())
+                                                select_questao9 = int(input('\n'))
 
                                                 if select_questao9 == 2:
                                                     os.system("cls")
@@ -965,7 +966,7 @@ def jogar_perguntaResposta():
                                                     for loop in pergunta10:
                                                         print(loop)
 
-                                                    select_questao10 = int(input())
+                                                    select_questao10 = int(input('\n'))
 
                                                     if select_questao10 == 4:
                                                         os.system("cls")
