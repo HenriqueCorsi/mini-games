@@ -61,7 +61,7 @@ Neste primeiro print está contido as funções que vão coletar os dados do usu
 
 ![parte01](https://user-images.githubusercontent.com/106001465/171563238-611f3498-48de-4dd1-9167-f09dc2b0ba76.PNG)
 
-Já neste segundo print podemos observar as funções do print acima sendo executa, algumas variáveis sendo declaradas para realizar toda a verificação dentro da palavra secreta e todo o processo que é feito caso a letra que o usuário digitar esteja errada.
+Já neste segundo print podemos observar as funções do print acima sendo executas, algumas variáveis importantes sendo declaradas para realizar toda a verificação, para saber se a letra digitada está contida na palavra secreta e todo o processo que é feito caso a letra que o usuário digitar esteja errada.
 
 ![parte02](https://user-images.githubusercontent.com/106001465/171564010-94e2b255-6017-4ed9-a8a9-f3124f4ab88f.PNG)
 
