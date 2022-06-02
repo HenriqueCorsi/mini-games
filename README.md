@@ -53,5 +53,17 @@ O usuário selecionando o tema matemática por exemplo, será exibido as questõ
 ![pr](https://user-images.githubusercontent.com/106001465/171093100-64cb388f-ab80-4cb2-ac7c-d4532ad5c6c6.PNG)
 
 
+# Jogo da Forca
+
+Os prints abaixo mostra um pouquinho mais da complexidade do código. Resolvi desenvolver esse códigos em partes, cada execução do código está divido em funções, acredito que assim ficar muito melhor para compreender as execuções do programa e possíveis correções e atualizações.
+
+Neste primeiro print está contido as funções que vão coletar os dados do usuário, também temos a função que irá definir a palavra secreta e também a função que irá ser executar caso a palavra informada pelo usuário esteja correta.
+
+![parte01](https://user-images.githubusercontent.com/106001465/171563238-611f3498-48de-4dd1-9167-f09dc2b0ba76.PNG)
+
+Já neste segundo print podemos observar as funções do print acima sendo executa, algumas variáveis sendo declaradas para realizar toda a verificação dentro da palavra secreta e todo o processo que é feito caso a letra que o usuário digitar esteja errada.
+
+![parte02](https://user-images.githubusercontent.com/106001465/171564010-94e2b255-6017-4ed9-a8a9-f3124f4ab88f.PNG)
+
 
 
